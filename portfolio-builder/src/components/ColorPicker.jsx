@@ -30,7 +30,7 @@ const ColorPicker = () => {
             style={{ width: "30px", height: "30px", background: "lightblue" }}
           ></div>
           <div
-            style={{ width: "30px", height: "30px", background: "lightred" }}
+            style={{ width: "30px", height: "30px", background: "#996D77" }}
           ></div>
           <div
             style={{ width: "30px", height: "30px", background: "lightpink" }}
@@ -56,6 +56,24 @@ const ColorPicker = () => {
               background: "#6F7772",
               border: "1px solid black",
             }}
+          ></div>
+          <div
+            style={{ width: "30px", height: "30px", background: "#996D77" }}
+          ></div>
+          <div
+            style={{ width: "30px", height: "30px", background: "#926855" }}
+          ></div>
+          <div
+            style={{ width: "30px", height: "30px", background: "#669177" }}
+          ></div>
+          <div
+            style={{ width: "30px", height: "30px", background: "#20BB75" }}
+          ></div>
+          <div
+            style={{ width: "30px", height: "30px", background: "#5D8884" }}
+          ></div>
+          <div
+            style={{ width: "30px", height: "30px", background: "#A1744C" }}
           ></div>
           <div
             style={{ width: "30px", height: "30px", background: "#996D77" }}
@@ -111,6 +129,24 @@ const ColorPicker = () => {
           ></div>
           <div
             style={{ width: "30px", height: "30px", background: "#6F7772" }}
+          ></div>
+          <div
+            style={{ width: "30px", height: "30px", background: "#996D77" }}
+          ></div>
+          <div
+            style={{ width: "30px", height: "30px", background: "#926855" }}
+          ></div>
+          <div
+            style={{ width: "30px", height: "30px", background: "#669177" }}
+          ></div>
+          <div
+            style={{ width: "30px", height: "30px", background: "#20BB75" }}
+          ></div>
+          <div
+            style={{ width: "30px", height: "30px", background: "#5D8884" }}
+          ></div>
+          <div
+            style={{ width: "30px", height: "30px", background: "#A1744C" }}
           ></div>
         </div>
       </div>

@@ -9,19 +9,22 @@ const ThemePicker = () => {
       <div
         style={{
           display: "flex",
-          marginTop: "20px",
-          justifyContent: "space-around",
+          justifyContent: "space-between",
         }}
       >
-        <h1>Themes</h1>
+        <h1 style={{ marginLeft: "30px" }}>Themes</h1>
         <div>
           <div
             style={{
-              width: "100px",
+              width: "150px",
+              marginBottom: "20px",
               display: "flex",
               marginTop: "20px",
               justifyContent: "space-around",
               alignItems: "center",
+              border: "1px solid black",
+              borderRadius: "10px",
+              background: "lightgray",
             }}
           >
             <h3>XYZ</h3>
@@ -33,13 +36,15 @@ const ThemePicker = () => {
         style={{
           background: "lightgray",
           display: "flex",
-          justifyContent: "space-around",
+          justifyContent: "space-between",
           marginLeft: "20px",
           borderRadius: "10px",
           alignItems: "center",
         }}
       >
-        <h1 style={{ fontSize: "20px" }}>Apply a skin to your profile</h1>
+        <h1 style={{ fontSize: "20px", marginLeft: "100px" }}>
+          Apply a skin to your profile
+        </h1>
         <div>
           <button
             style={{
