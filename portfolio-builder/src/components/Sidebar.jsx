@@ -8,7 +8,15 @@ import { MdForwardToInbox } from "react-icons/md";
 import { PiTelevisionSimpleBold } from "react-icons/pi";
 const Sidebar = () => {
   return (
-    <div style={{ background: "lightgray", height: "100vh", width: "200px" }}>
+    <div
+      style={{
+        background: "lightgray",
+        height: "100vh",
+        width: "200px",
+        margin: "-7.9px",
+        padding: "10px",
+      }}
+    >
       <div style={{ textAlign: "center" }}>Logo Here</div>
 
       <div>

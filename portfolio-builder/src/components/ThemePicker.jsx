@@ -1,5 +1,7 @@
 import React from "react";
 import { CgProfile } from "react-icons/cg";
+import ColorPicker from "./ColorPicker";
+import Profile from "./Profile";
 
 const ThemePicker = () => {
   return (
@@ -55,11 +57,17 @@ const ThemePicker = () => {
               width: "100px",
               height: "30px",
               borderRadius: "10px",
+              background: "black",
+              color: "white",
             }}
           >
             Save
           </button>
         </div>
+      </div>
+      <div style={{ display: "flex" }}>
+        <ColorPicker />
+        <Profile />
       </div>
     </div>
   );
